@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tables</title>
+  </head>
+  <body>
+    <h2>Tables</h2>
+    <table border="1" cellspacing="10" bgcolor="lightblue">
+      <caption align="bottom">This is the caption</caption>
+      <thead>
+        <tr>
+          <th colspan="3">The Table Header</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>tr1-td1</td>
+        <td>tr1-td2</td>
+        <td>tr1-td3</td>
+      </tr>
+      <tr>
+        <td>tr2-td1</td>
+        <td>tr2-td2</td>
+        <td>tr2-td3</td>
+      </tr>
+      </tbody>
+      <tfoot>
+          <tr>
+            <th colspan="2">Footer colspan 2</th>
+            <!--<th>Footer2</th> -->
+            <th>Footer3</th>
+          </tr>
+      </tfoot>
+    </table>
+
+    <h3>Table's Structure</h3>
+    <p>A table can contain 3 parts, and a caption
+      <ol>
+        <li>header: <b>thead</b></li>
+        <li>body: <b>tbody</b></li>
+        <li>footer: <b>tfoot</b></li>
+        <li>caption: <b>caption</b></li>
+      </ol>
+    </p>
+    <h3>Create a Table</h3>
+    <ul>
+      <li>Create the table with the <b>table</b> element</li>
+      <li>Define each line with the <b>tr</b> (table row) element</li>
+      <li>Define each cell of the line with the <b>td</b> (table data) element</li>
+    </ul>
+    <h3>Add a caption</h3>
+    <ul>
+      <li>Add a caption with the tag: <b>caption</b></li>
+      <li>caption tag should be the first element after the tabe tag</li>
+      <li>use <b>align</b> attribute to define the position of the caption (top, bottom, left, right)</li>
+    </ul>
+    <h3>Add a Header</h3>
+    <ul>
+      <li>define the header inside <b>thead</b></li>
+      <li>create a table row with <b>tr</b></li>
+      <li>define header text and attributes (i.e. <b>colspan</b>) with <b>th</b>: table header cell </li>
+    </ul>
+    <h3>Add a footer</h3>
+    <ul>
+      <li>Open the footer with <b>tfoot</b></li>
+      <li>Creta the footer row with <b>tr</b></li>
+      <li>Define content of footer cell with <b>tf</b>: table footer cell</li>
+    </ul>
+
+
+
+  </body>
+</html>
